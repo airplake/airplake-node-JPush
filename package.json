@@ -14,7 +14,7 @@
     "url": "git+https://github.com/airplake/airplake-node-JPush.git"
   },
   "author": "Airplake",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/airplake/airplake-node-JPush/issues"
   },

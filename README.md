@@ -22,7 +22,7 @@ $ npm install --save jpush-sdk
     "consumerAdapters": [{
            queueName: 'jpush-notification',
            require: 'airplake-node-JPush',
-           AccessKeyId: '', // 填写你的appKey,可以登录极光查找
+           JPUSHAPPKEY: '', // 填写你的appKey,可以登录极光查找
            AccessKeySecret: ''// 填写你的masterSecret，可以登录极光查找
     }]
   }
@@ -39,12 +39,6 @@ $ npm install --save jpush-sdk
 
 ``` bash
 /api/jpushNotification/verification     `发送验证消息`
-```
-
-
-```js 
-    {//验证，不需要数据
-    }
 ```
 
 
@@ -77,7 +71,7 @@ $ npm install --save jpush-sdk
              big_push_duration: 100, //单位：分钟 又名缓慢推送，把原本尽可能快的推送速度，降低下来，给定的n分钟内，均匀地向这次推送的目标用户推送。最大值为1400.未设置则不是定速推送。
 
          },
-       extra: Schema.JsonObject // 额外的信息，json格式 可选
+       extra: {} // 额外的信息，json格式 可选
      };
 ```
 
