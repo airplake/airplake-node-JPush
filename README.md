@@ -5,7 +5,7 @@ Message Distributing Center (MDC) 专用极光通知消息适配器。
 ## 安装
 
 ```console
-$ npm install --save jpush-sdk
+$ npm install --save airplake-node-JPush
 ```
 
 ## 使用
